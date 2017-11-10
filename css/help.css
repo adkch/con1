@@ -1,0 +1,123 @@
+@charset "UTF-8";
+body {
+  background: #f7f7f8;
+}
+
+.tit {
+  font-family: ﻿MicrosoftYaHei;
+  font-size: .16rem;
+  color: #666666;
+  text-align: center;
+  padding-top: .4rem;
+  padding-bottom: .4rem;
+}
+
+.imgbox {
+  width: 74%;
+  height: 4.5rem;
+  background: #fff;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+.imgbox .imgear {
+  width: 2.76rem;
+  height: 3rem;
+  background: url(../img/help/Overview.png) center no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 1.4rem;
+  top: .9rem;
+}
+.imgbox h1 {
+  text-align: center;
+  font-family: ﻿Arial-BoldMT;
+  font-size: .42rem;
+  color: #000000;
+  margin-top: 2.06rem;
+}
+.imgbox p {
+  text-align: center;
+  font-size: .1551rem;
+  padding-top: .37rem;
+}
+.imgbox p a {
+  font-family: ﻿MicrosoftYaHei;
+  font-size: .1551rem;
+  color: #000000;
+  padding-left: .58rem;
+  padding-right: .58rem;
+}
+
+.helpmore {
+  width: 74%;
+  background: #fff;
+  margin: auto;
+  overflow: hidden;
+}
+.helpmore h1 {
+  font-family: ﻿MicrosoftYaHei;
+  font-size: .36rem;
+  color: #666666;
+  text-align: center;
+  margin-top: 1rem;
+}
+.helpmore .content {
+  padding: 0 1.2rem 1rem 1.2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.helpmore .content div {
+  width: 2.8rem;
+  height: 2.8rem;
+  margin: 0  auto;
+  margin-top: .63rem;
+  border: solid 1px #dddddd;
+  transition: all 200ms linear;
+  cursor: pointer;
+}
+.helpmore .content div:hover {
+  transform: translateY(-0.2rem);
+  box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.15);
+}
+.helpmore .content div h2 {
+  text-align: center;
+  font-family: ﻿AdobeHeitiStd-Regular;
+  font-size: .2rem;
+  color: #666666;
+  padding-top: 1.1rem;
+}
+.helpmore .content .help-1 {
+  background: url(../img/help/ud.png) 1.16rem 0.35rem no-repeat;
+  background-size: .48rem;
+}
+.helpmore .content .help-2 {
+  background: url(../img/help/spec.png) 1.16rem 0.35rem no-repeat;
+  background-size: .48rem;
+}
+.helpmore .content .help-3 {
+  background: url(../img/help/vioce.png) 1.16rem 0.35rem no-repeat;
+  background-size: .48rem;
+}
+.helpmore .content .help-4 {
+  background: url(../img/help/blue.png) 1.16rem 0.35rem no-repeat;
+  background-size: .48rem;
+}
+.helpmore .content .help-5 {
+  background: url(../img/help/fix.png) 1.16rem 0.35rem no-repeat;
+  background-size: .48rem;
+}
+.helpmore .content .help-6 {
+  background: url(../img/help/charge.png) 1.16rem 0.35rem no-repeat;
+  background-size: .48rem;
+}
+.helpmore .content .help-7 {
+  background: url(../img/help/serve.png) 1.16rem 0.35rem no-repeat;
+  background-size: .48rem;
+}
+.helpmore .content .help-8 {
+  background: url(../img/help/help.png) 1.16rem 0.35rem no-repeat;
+  background-size: .48rem;
+}
+
+/*# sourceMappingURL=help.css.map */

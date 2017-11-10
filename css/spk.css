@@ -1,0 +1,246 @@
+@charset "UTF-8";
+.banner {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner ul {
+  position: absolute;
+}
+
+.banner ul li {
+  width: 100%;
+  height: 9rem;
+  float: left;
+  background: no-repeat center center;
+  background-size: cover;
+}
+
+.banner ol {
+  height: 0.2rem;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 50%;
+  bottom: 0.3rem;
+  padding: 0 0.1rem;
+  border-radius: 0.1rem;
+}
+
+.banner ol li {
+  width: 0.1rem;
+  height: 0.1rem;
+  float: left;
+  margin: 0.05rem 0.05rem;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.banner ol .current {
+  background: white;
+}
+
+.banner i {
+  width: 0.58rem;
+  height: 1rem;
+  position: absolute;
+  top: 50%;
+  margin-top: -0.6rem;
+  cursor: pointer;
+  border-radius: 0.05rem;
+  display: none;
+}
+
+.banner .left {
+  left: 0.6rem;
+  background: url(../img/spk/banner-left.png) no-repeat 0rem 0.04rem;
+  background-size: contain;
+}
+
+.banner .right {
+  right: 0.6rem;
+  background: url(../img/spk/banner-right.png) no-repeat 0rem 0.04rem;
+  background-size: contain;
+}
+
+.banner .left:hover, .banner .right:hover {
+  background-color: rgba(0, 0, 0, 0.31);
+}
+
+.choose {
+  width: 100%;
+  height: 9rem;
+  background: url(../img/spk/kl-purple.png) center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.choose h1 {
+  font-size: .64rem;
+  margin: 0;
+  font-size: .64rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  padding-left: 2.87rem;
+  padding-top: 1.84rem;
+}
+.choose p {
+  font-size: .2rem;
+  margin: 0;
+  padding-left: 2.85rem;
+  padding-top: .38rem;
+}
+.choose .circle {
+  width: .5rem;
+  height: .5rem;
+  position: absolute;
+  left: 3.28rem;
+  cursor: pointer;
+}
+.choose .blue {
+  top: 3.73rem;
+  background: url(../img/spk/blue.png) center no-repeat;
+  background-size: .4rem .4rem;
+}
+.choose .purple {
+  top: 4.55rem;
+  background: url(../img/spk/purple-hover.png) center no-repeat;
+  background-size: .4rem .4rem;
+}
+.choose .cyan {
+  top: 5.47rem;
+  background: url(../img/spk/cyan.png) center no-repeat;
+  background-size: .4rem .4rem;
+}
+.choose .brown {
+  top: 3.73rem;
+  left: 5.5rem;
+  background: url(../img/spk/brown.png) center no-repeat;
+  background-size: .4rem .4rem;
+}
+.choose .red {
+  top: 4.6rem;
+  left: 5.5rem;
+  background: url(../img/spk/red.png) center no-repeat;
+  background-size: .4rem .4rem;
+}
+
+.content {
+  width: 100%;
+  height: 22.5rem;
+  position: relative;
+  background: linear-gradient(#fff, #f7f7f8);
+}
+.content .lang-vioce {
+  width: 3.55rem;
+  height: 11.74rem;
+  position: absolute;
+  background: url(../img/spk/lang-vioce.jpg) center no-repeat;
+  background-size: cover;
+  left: 2.21rem;
+  top: 0;
+}
+.content .circle-vioce {
+  width: 7.94rem;
+  height: 7.61rem;
+  position: absolute;
+  background: url(../img/spk/circle-vioce.png) center no-repeat;
+  background-size: cover;
+  left: 10.5rem;
+  top: 12.05rem;
+}
+.content p {
+  font-family: "微软雅黑";
+  font-size: .2rem;
+  color: #939393;
+  text-align: left;
+}
+.content .content-text1 {
+  position: absolute;
+  width: 6.5rem;
+  height: 12.6rem;
+  left: 11rem;
+  top: 4.35rem;
+}
+.content .content-text2 {
+  position: absolute;
+  width: 9.7rem;
+  height: .56rem;
+  left: .33rem;
+  top: 14.94rem;
+}
+
+.btnbox {
+  width: 100%;
+  height: 5.58rem;
+  background-color: #f7f7f8;
+}
+.btnbox .btnbox-content {
+  width: 16.34rem;
+  height: 5.58rem;
+  background-color: white;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.btnbox .btnbox-content h1 {
+  padding-top: 1.62rem;
+  font-family: ﻿MicrosoftYaHei;
+  font-size: .64rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  color: #222021;
+  text-align: center;
+}
+.btnbox .btnbox-content .inputbox {
+  width: 6.16rem;
+  height: .62rem;
+  border-radius: .31rem;
+  border: solid .01rem #ababab;
+  margin: 0 auto;
+  margin-top: 1.16rem;
+  position: relative;
+}
+.btnbox .btnbox-content .inputbox input {
+  width: 3.96rem;
+  height: .59rem;
+  font-family: ﻿MicrosoftYaHei;
+  border: none;
+  border-right: solid .01rem #ababab;
+  font-size: .20rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  color: #ababab;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-left: .3rem;
+}
+.btnbox .btnbox-content .inputbox button {
+  width: 1.9rem;
+  height: .62rem;
+  font-family: ﻿MicrosoftYaHei;
+  font-size: .2rem;
+  color: #000000;
+  position: absolute;
+  left: 4.27rem;
+  top: 0;
+  border: solid .01rem #333;
+  border-left: none;
+  border-top-right-radius: .31rem;
+  border-bottom-right-radius: .31rem;
+  background: none;
+  background: url(../img/spk/register.jpg) 1.2rem center no-repeat;
+  background-size: .17rem .2rem;
+}
+.btnbox .btnbox-content #aside {
+  font-family: ﻿MicrosoftYaHei;
+  font-size: .2rem;
+  color: #000000;
+  text-align: center;
+  padding-top: .05rem;
+}
+
+/*# sourceMappingURL=spk.css.map */

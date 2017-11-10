@@ -1,0 +1,180 @@
+@charset "UTF-8";
+.banner {
+  width: 100%;
+  height: 6rem;
+  position: relative;
+  background: url(../img/sus/banner.png) center no-repeat;
+  background-size: cover;
+}
+
+.help {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+.help h1 {
+  font-family: ﻿MicrosoftYaHei;
+  font-size: .4rem;
+  font-weight: 700;
+  color: #000000;
+  margin-top: 1.4rem;
+}
+.help h2 {
+  font-family: ﻿MicrosoftYaHei;
+  font-size: .16rem;
+  color: #333333;
+  margin-top: .18rem;
+}
+.help .listbox {
+  width: 74%;
+  height: 4.3rem;
+  display: flex;
+  margin: 0 auto;
+}
+.help .listbox div {
+  width: 25%;
+  height: 4.2rem;
+  overflow: hidden;
+}
+.help .listbox div h3 {
+  font-family: ﻿MicrosoftYaHei;
+  font-size: .24rem;
+  color: #000000;
+  margin-top: 2.6rem;
+  margin-bottom: .32rem;
+}
+.help .listbox div a {
+  text-decoration: none;
+  color: #000000;
+  font-size: .16rem;
+  display: block;
+  background: url(../img/sus/next.jpg) 72% 68% no-repeat;
+  background-size: .09rem .09rem;
+}
+.help .listbox div a:hover {
+  color: #CA282C;
+}
+.help .listbox div .view {
+  background: url(../img/sus/more.jpg) 72% 68% no-repeat;
+}
+.help .listbox .small-1 {
+  background: url(../img/sus/small-1.png) center top no-repeat;
+  background-size: 2.2rem 2.2rem;
+}
+.help .listbox .small-2 {
+  background: url(../img/sus/small-2.png) center top no-repeat;
+  background-size: 2.2rem 2.2rem;
+}
+.help .listbox .small-3 {
+  background: url(../img/sus/small-3.png) center top no-repeat;
+  background-size: 2.2rem 2.2rem;
+}
+.help .listbox .small-4 {
+  background: url(../img/sus/small-4.png) center top no-repeat;
+  background-size: 2.2rem 2.2rem;
+}
+
+.earbox {
+  width: 100%;
+  height: 8rem;
+  background: url(../img/sus/bg-white.png) center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.earbox div {
+  font-family: ﻿SimSun;
+  font-size: .16rem;
+  color: #000000;
+  margin-left: 71%;
+  margin-bottom: .37rem;
+  background: url(../img/sus/add.jpg) 14% 60% no-repeat;
+  background-size: 0.08rem;
+}
+.earbox .first {
+  margin-top: 2.76rem;
+}
+
+.more {
+  width: 100%;
+  background-color: #f4f4f4;
+  text-align: center;
+  overflow: hidden;
+}
+.more h1 {
+  font-family: ﻿MicrosoftYaHei;
+  font-size: .40rem;
+  color: #000000;
+  margin-top: .8rem;
+}
+.more .morebox {
+  display: flex;
+  width: 74%;
+  margin: 0 auto;
+  margin-top: .8rem;
+}
+.more .morebox div {
+  width: 4.6rem;
+  height: 4.6rem;
+  margin: 0 auto;
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.more .morebox div h1 {
+  font-family: ﻿MicrosoftYaHei;
+  font-size: .24rem;
+  color: #666666;
+  position: absolute;
+  margin: 0;
+  top: .56rem;
+  left: 1.7rem;
+}
+.more .morebox div p {
+  padding: 1.3rem .2rem 0 .2rem;
+  font-family: ﻿MicrosoftYaHei;
+  font-size: .24rem;
+  color: #666666;
+}
+.more .morebox div button {
+  position: absolute;
+  border: none;
+  width: 2.4rem;
+  height: .40rem;
+  border-radius: .2rem;
+  background: none;
+  font-size: .16rem;
+  color: #000000;
+  bottom: 1.34rem;
+  right: 1.1rem;
+  transition: all 400ms ease;
+  background-color: #1AAB8A;
+  color: #fff;
+}
+.more .morebox div button span {
+  z-index: 2;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.more .morebox div button:hover {
+  color: #1AAB8A;
+}
+.more .morebox div button:before {
+  content: '';
+  width: 2.4rem;
+  height: .40rem;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  position: absolute;
+  background-color: #fff;
+  opacity: 0;
+  transform: scale(0.1, 1);
+  transition: all 600ms ease;
+}
+.more .morebox div button:hover:before {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+
+/*# sourceMappingURL=sus.css.map */

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>帮助中心</title>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	    <link rel="stylesheet" type="text/css" href="css/footer.css">
+	    <link rel="stylesheet" type="text/css" href="css/top_nav.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/help.css">
+	    <script src="js/auto-size.js"></script>
+	    <script src="js/jquery-3.2.1.min.js"></script>
+	</head>
+	<body>
+		<!--灰色背景-->
+	<div id="gethui">
+	</div>
+	<!--导航栏-->
+	<div class="nav">
+		<div class="nav_center">
+			<ul class="cl">
+				<li><a href="head.html" target="_blank"><span>头戴式耳机</span></a></li>
+				<li><a href="ear.html" target="_blank"><span>入耳式耳机</span></a></li>
+				<li><a href="spk.html" target="_blank"><span>扬声器</span></a></li>
+				<li><a href="first.html"><img src="img/nav/logo_white.png" class="logo"/></a></li>
+				<li><a href="sus.html" target="_blank"><span>服务支持</span></a></li>
+				<li><a href="#"><img src="img/nav/user.png" class="logo1" id="more"/></a></li>
+				<li><input type="text" id="research" placeholder="请输入你要的内容" /><a href="#"><img src="img/nav/nav_research.png" class="logo2" id="research_btn"/></a></li>
+			</ul>
+		</div>
+	</div>
+	<!--导航栏点击更多选项-->
+	<div id="nav_more">
+		<span><a href="landing.html" target="_blank">登陆</a></span>
+		<span><a href="#">关于我们</a></span>
+		<span><a href="#">联系DJ X</a></span>
+		<span><a href="#">DJ X AUDIO</a></span>
+		<p><a href="#"><img src="img/nav/logo_red.png"/></a></p>
+	</div>
+		<!--标题栏-->
+		<h1 class="tit">
+			支持  DJ X ONE
+		</h1>
+		<!--图片栏-->
+		<div class="imgbox">
+			<div class="topbox">
+				<div class="imgear"></div>
+				<h1>DJ X ONE 支持</h1>
+				<p><a href="#">快速入门指南</a><a href="#">下载驱动</a></p>
+			</div>
+			<div class="botbox"></div>
+		</div>
+		<!--更多帮助栏-->
+		<div class="helpmore">
+			<h1>您需要哪方面的帮助?</h1>
+			<div class="content">
+				<div class="help-1"><h2>更新</h2></div>
+				<div class="help-2"><h2>特性</h2></div>
+				<div class="help-3"><h2>声音</h2></div>
+				<div class="help-4"><h2>蓝牙</h2></div>
+				<div class="help-5"><h2>维修</h2></div>
+				<div class="help-6"><h2>充电</h2></div>
+				<div class="help-7"><h2>服务</h2></div>
+				<div class="help-8"><h2>帮助</h2></div>
+			</div>
+		</div>
+		
+		<!--底部-->
+		<div class="footer">
+			<div class="footer-content">
+				<h1>产品支持</h1>
+				<div class="icon1"><a href="#">主页</a></div>
+				<div class="icon2"><a href="#">联系我们</a></div>
+				<div class="icon3"><a href="#">更新产品</a></div>
+				<div class="icon4"><a href="#">维修服务</a></div>
+				<p><span>蜀ICP备13014270号</span><span class="aside">保留所有权利</span></p>
+				
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		//	更多按钮
+		$(function(){
+			$('#more').click(function(){
+				$('#gethui').fadeIn(500);
+				$('#nav_more').fadeIn(500);
+				setTimeout(function(){$('#gethui').css('display','none')},6000)
+				setTimeout(function(){$('#nav_more').css('display','none')},6000)
+			})
+			//	搜索按钮
+			$('#research_btn').click(function(){
+				$('#research_btn').fadeOut(100,function(){
+					$('#research').fadeIn(1000)
+					$('#research_btn').fadeIn(500)
+				})
+				
+			});
+		})
+	</script>
+</html>

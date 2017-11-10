@@ -1,0 +1,222 @@
+.banner {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+ 
+.banner ul { position: absolute; }
+ 
+.banner ul li {
+  width: 100%;
+  height: 9rem;
+  float: left;
+  background: no-repeat center center;
+  background-size: cover;
+}
+.banner ol {
+  height: 0.2rem;
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  left: 50%;
+  bottom: 0.3rem;
+  padding: 0 0.1rem;
+  border-radius: 0.1rem;
+}
+ 
+.banner ol li {
+  width: 0.1rem;
+  height: 0.1rem;
+  float: left;
+  margin: 0.05rem 0.05rem;
+  background: rgba(255,255,255,0.5);
+  border-radius: 50%;
+  cursor: pointer;
+}
+ 
+.banner ol .current { background: rgba(255,255,255,1); }
+ 
+.banner i {
+  width: 0.58rem;
+  height: 1rem;
+  position: absolute;
+  top: 50%;
+  margin-top: -0.6rem;
+  cursor: pointer;
+  border-radius: 0.05rem;
+  display: none;
+}
+ 
+.banner .left {
+  left: 0.6rem;
+  background: url(../img/new_1/左.png) no-repeat 0rem 0.04rem;
+  background-size: contain;
+}
+ 
+.banner .right {
+  right: 0.6rem;
+  background: url(../img/new_1/右.png) no-repeat 0rem 0.04rem;
+  background-size: contain;
+}
+ 
+.banner .left:hover, .banner .right:hover { background-color: rgba(0, 0, 0, 0.31); }  
+
+
+/*内容部分*/
+.content{
+	background: #f7f7f8;
+	/*font-size: 0;*/
+}
+.content_blue,.content_red,.content_heart,.content_blank{
+	margin: 0 auto;
+	width: 16.34rem;
+	position: relative;
+	z-index: 2;
+}
+.content_picture{
+	width: 16.34rem;
+}
+.instruction{
+	position: absolute;
+	top: 0;
+	left: 1.56rem;
+	z-index: 3;
+}
+.instruction h3{
+	font-size: 0.64rem;
+	margin-top: 0.9rem;
+	color: #222021;
+}
+.instruction h5{
+	font-size: 0.42rem;
+	margin: 0.2rem 0;
+	color: #222021;
+}
+.instruction p{
+	font-size: 0.2rem;
+	margin-top: 0.3rem;
+	color: #222021;
+}
+.instruction h6{
+	font-size: 0.24rem;
+	margin-top: 0.8rem;
+	color: #222021;
+}
+.btn_hed{
+	font-size: 0.24rem;
+	color: #fff;
+	display: inline-block;
+	margin-top: 0.3rem;
+	height: 0.6rem;
+	width: 2.8rem;
+	background: black;
+	text-align: center;
+	line-height: 0.6rem;
+	border-radius: 0.3rem;
+	overflow: hidden;
+	position: relative;
+}
+.btn_font{
+	position: relative;
+	z-index: 2;
+}
+.move_y{
+	position: absolute;
+	left: -0.2rem;
+	top: -0.2rem;
+	width: 4.2rem;
+	z-index: 1;
+	transition: all 0.3s linear 0s;
+}
+.btn_hed:hover .move_y{
+	transform: translateY(0.9rem);
+	transition: all 0.3s linear 0s;
+}
+
+/*邮箱注册*/
+.btnbox {
+  width: 100%;
+  height: 5.58rem;
+  background-color: #f7f7f8; }
+  .btnbox .btnbox-content {
+    width: 16.34rem;
+    height: 5.58rem;
+    background-color: white;
+    margin: 0 auto;
+    overflow: hidden; }
+    .btnbox .btnbox-content h1 {
+      padding-top: 1.62rem;
+      font-family: ﻿MicrosoftYaHei;
+      font-size: .64rem;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      color: #222021;
+      text-align: center; }
+    .btnbox .btnbox-content .inputbox {
+      width: 6.16rem;
+      height: .62rem;
+      border-radius: .31rem;
+      border: solid .01rem #ababab;
+      margin: 0 auto;
+      margin-top: 1.16rem;
+      position: relative; }
+      .btnbox .btnbox-content .inputbox input {
+        width: 3.96rem;
+        height: .59rem;
+        font-family: ﻿MicrosoftYaHei;
+        border: none;
+        border-right: solid .01rem #ababab;
+        font-size: .20rem;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        color: #ababab;
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin-left: .3rem; }
+      .btnbox .btnbox-content .inputbox button {
+        width: 1.9rem;
+        height: .62rem;
+        font-family: ﻿MicrosoftYaHei;
+        font-size: .2rem;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        color: #000000;
+        position: absolute;
+        left: 4.27rem;
+        top: 0;
+        border: solid .01rem #333;
+        border-left: none;
+        border-top-right-radius: .31rem;
+        border-bottom-right-radius: .31rem;
+        background: none;
+        background: url(../img/new_1/register.jpg) 1.2rem center no-repeat;
+        background-size: .17rem .2rem; }
+ #aside{
+            font-family: ﻿MicrosoftYaHei;
+            font-size: .2rem;
+            color: #000000;
+            text-align: center;
+            padding-top:.05rem;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

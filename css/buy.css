@@ -1,0 +1,105 @@
+.f_left{
+	float: left;
+}
+.f_right{
+	float: right;
+}
+.content{
+	width: 12.6rem;
+	margin: 0 auto;
+	font-size: 0;
+}
+.showcasing{
+	height: 7.88rem;
+	border-bottom: 1px solid #dddddd;
+}
+.showcasing_font{
+	width: 6.3rem;
+}
+.showcasing_font h2{
+	font-size: 0.64rem;
+	color: #222021;
+	margin-top: 1.43rem;
+	margin-bottom: 0.3rem;
+}
+.showcasing_font h4{
+	font-size: 0.42rem;
+	color: #222021;
+	margin-top: 0.3rem;
+}
+.showcasing_font p{
+	font-size: 0.2rem;
+	color: #222021;
+	margin-top: 0.3rem;
+	margin-bottom: 1.13rem;
+}
+.buycar_click{
+	width: 3rem;
+	opacity: 0.6;
+	transition: all 0.3s linear 0s;
+}
+.buycar_click:hover{
+	opacity: 1;
+	transform: translateY(0.2rem);
+	transition: all 0.3s linear 0s;
+}
+.showcasing_picture{
+	width: 6.3rem;
+}
+.K5_picture{
+	width: 5.3rem;
+	margin-top: 1.7rem;
+}
+.MDR-Z1R_picture{
+	width: 3.53rem;
+	margin-top: 1.7rem;
+}
+.DJX_picture{
+	width: 4.27rem;
+	margin-top: 1.7rem;
+}
+.DJXONE_picture{
+	width: 2.76rem;
+	margin-top: 1.7rem;
+}
+
+/*内容详情*/
+.content_all h4{
+	margin-top: 0.69rem;
+	font-size: 0.42rem;
+}
+.classification{
+	margin-top: 0.69rem;
+	padding-bottom: 0.69rem;
+	border-bottom: 1px solid #dddddd;
+}
+.classification_1{
+	margin-top: 0.69rem;
+	padding-bottom: 0.69rem;
+}
+.key_point{
+	font-size: 0.2rem;
+	width: 3.19rem;
+	line-height: 0.5rem;
+}
+.particular{
+	font-size: 0.2rem;
+	width: 9.41rem;
+	color: #666666;
+	line-height: 0.5rem;
+}
+.particular h6{
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+

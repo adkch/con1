@@ -1,0 +1,246 @@
+.banner {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+ 
+.banner ul { position: absolute; }
+ 
+.banner ul li {
+  width: 100%;
+  height: 9rem;
+  float: left;
+  background: no-repeat center center;
+  background-size: cover;
+}
+.banner ol {
+  height: 0.2rem;
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  left: 50%;
+  bottom: 0.3rem;
+  padding: 0 0.1rem;
+  border-radius: 0.1rem;
+}
+ 
+.banner ol li {
+  width: 0.1rem;
+  height: 0.1rem;
+  float: left;
+  margin: 0.05rem 0.05rem;
+  background: rgba(255,255,255,0.5);
+  border-radius: 50%;
+  cursor: pointer;
+}
+ 
+.banner ol .current { background: rgba(255,255,255,1); }
+ 
+.banner i {
+  width: 0.58rem;
+  height: 1rem;
+  position: absolute;
+  top: 50%;
+  margin-top: -0.6rem;
+  cursor: pointer;
+  border-radius: 0.05rem;
+  display: none;
+}
+ 
+.banner .left {
+  left: 0.6rem;
+  background: url(../img/new_1/左.png) no-repeat 0rem 0.04rem;
+  background-size: contain;
+}
+ 
+.banner .right {
+  right: 0.6rem;
+  background: url(../img/new_1/右.png) no-repeat 0rem 0.04rem;
+  background-size: contain;
+}
+ 
+.banner .left:hover, .banner .right:hover { background-color: rgba(0, 0, 0, 0.31); }  
+.content{
+	background: #f7f7f8;
+}
+.content h3{
+	font-size: 0.46rem;
+	color: #2c2c2c;
+	text-align: center;
+	padding-top: 1.06rem;
+	padding-bottom: 0.38rem;
+	background: #f7f7f8;
+}
+.cooperation{
+	width: 14.2rem;
+	margin: 0 auto;
+	position: relative;
+	font-size: 0;
+}
+.cooperation_1{
+	width: 4.6rem;
+}
+.cooperation_2{
+	width: 4.6rem;
+	margin: 0 0.2rem;
+}
+.cooperation p{
+	position: relative;
+	top: -0.6rem;
+	text-align: center;
+	display: inline-block;
+	width: 4.6rem;
+	font-size: 0.16rem;
+}
+.cooperation p a{
+	color: black;
+}
+.cooperation p a:hover{
+	text-decoration: underline;
+}
+.cooperation_2p{
+	margin: 0 0.2rem;
+}
+.djx_one,.djx_two{
+	width: 14.2rem;
+	position: relative;
+	margin: 0 auto;
+}
+.djx_one{
+	margin-top: 0.3rem;
+}
+.djx_two{
+	margin-top: 0.9rem;
+}
+.introduce_1{
+	width: 4.6rem;
+	height: 3.34rem;
+	background: white;
+	position: absolute;
+	bottom: 0.27rem;
+	left: 0;
+	transition: all 0.3s linear 0s;
+	transform-origin: bottom left;
+}
+.introduce_1 h5{
+	font-size: 0.46rem;
+	color: #000000;
+	margin-left: 0.81rem;
+	margin-top: 0.39rem;
+}
+.introduce_1 p{
+	font-size: 0.14rem;
+	color: #8c8c8c;
+	margin-left: 0.8rem;
+	margin-top: 0.5rem;
+}
+#btn1,#btn2{
+	display: inline-block;
+	width: 0.53rem;
+	height: 0.23rem;
+	border-radius: 0.11rem;
+	font-size: 0.16rem;
+	/*border: 0.02rem solid #a9a9a9;*/
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	background: #e75269;
+}
+#btn1{
+	position: absolute;
+	left: 1rem;
+	bottom: 0.4rem;
+}
+#btn2{
+	position: absolute;
+	right: 1rem;
+	bottom: 0.4rem;
+}
+.djx_one_picture{
+	width: 14.2rem;
+}
+.djx_two_picture{
+	width: 14.2rem;
+}
+
+
+.introduce_2{
+	width: 4.6rem;
+	height: 3.34rem;
+	background: black;
+	position: absolute;
+	bottom: 0.27rem;
+	right: 0;
+	transition: all 0.3s linear 0s;
+	transform-origin: bottom right;
+}
+.introduce_2 h5{
+	font-size: 0.46rem;
+	color: #e75269;
+	margin-left: 1.2rem;
+	margin-top: 0.29rem;
+}
+.introduce_2 p{
+	font-size: 0.14rem;
+	color: #8c8c8c;
+	margin-left: 1rem;
+	margin-top: 0.2rem;
+}
+#btn3,#btn4{
+	display: inline-block;
+	width: 0.53rem;
+	height: 0.23rem;
+	border-radius: 0.11rem;
+	font-size: 0.16rem;
+	/*border: 0.02rem solid #a9a9a9;*/
+	text-align: center;
+	background: #e75269;
+	overflow: hidden;
+	position: relative;
+}
+#btn3{
+	position: absolute;
+	left: 1rem;
+	bottom: 0.4rem;
+}
+#btn4{
+	position: absolute;
+	right: 1rem;
+	bottom: 0.4rem;
+}
+#btn1 a,#btn2 a,#btn3 a,#btn4 a{
+	color: black;
+}
+.btn_font{
+	position: relative;
+	z-index: 2;
+}
+.introduce_1:hover,.introduce_2:hover{
+	transform: scale(1.2,1.2);
+	transition: all 0.3s linear 0s;
+}
+.move_x,.move_y{
+	position: absolute;
+	left: -0.2rem;
+	top: -0.2rem;
+	width: 1.06rem;
+	z-index: 1;
+	transition: all 0.3s linear 0s;
+}
+#btn1:hover .move_x,#btn3:hover .move_x{
+	transform: translateX(1.06rem);
+	transition: all 0.3s linear 0s;
+}
+#btn2:hover .move_y,#btn4:hover .move_y{
+	transform: translateY(0.46rem);
+	transition: all 0.3s linear 0s;
+}
+
+
+
+
+
+
+
+
+
+

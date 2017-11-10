@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>主页</title>
+		<link rel="stylesheet" type="text/css" href="css/new_1.css"/>
+		<link rel="stylesheet" type="text/css" href="css/top_nav.css"/>
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+	</head>
+	<body>
+		<div id="gethui">
+		</div>
+		<div class="nav">
+			<div class="nav_center">
+				<ul class="cl">
+					<li><a href="head.html" target="_blank"><span>头戴式耳机</span></a></li>
+					<li><a href="ear.html" target="_blank"><span>入耳式耳机</span></a></li>
+					<li><a href="spk.html" target="_blank"><span>扬声器</span></a></li>
+					<li><a href="first.html"><img src="img/nav/logo_white.png" class="logo"/></a></li>
+					<li><a href="sus.html" target="_blank"><span>服务支持</span></a></li>
+					<li><a href="#"><img src="img/nav/user.png" class="logo1" id="more"/></a></li>
+					<li><input type="text" id="research" placeholder="请输入你要的内容" /><a href="#"><img src="img/nav/nav_research.png" class="logo2" id="research_btn"/></a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="nav_more">
+			<span><a href="landing.html" target="_blank">登陆</a></span>
+			<span><a href="#">关于我们</a></span>
+			<span><a href="#">联系DJ X</a></span>
+			<span><a href="#">DJ X AUDIO</a></span>
+			<p><a href="#"><img src="img/nav/logo_red.png"/></a></p>
+		</div>
+			<div class="banner">
+			    <ul>
+			    </ul>
+			    <ol>
+			    </ol>
+			    <i class="left"></i><i class="right"></i>
+			</div>  
+			<div class="content">
+				<h3>合作产品</h3>
+				<div class="cooperation">
+					<img src="img/new_1/图片1.png" class="cooperation_1"/><img src="img/new_1/图片2.png" class="cooperation_2"/><img src="img/new_1/图片3.png" class="cooperation_1"/>
+					<p><a href="buy_K5.html" target="_blank"><span>西伯利亚K5</span><br/><span>炫彩定制版</span></a></p><p class="cooperation_2p"><a href="buy_SONY DDR-Z1R.html" target="_blank"><span>SONY DDR-Z1R</span><br/><span>旗舰版</span></a></p><p><a href="buy_DJ X.html" target="_blank"><span>DJ X 钛合金材质</span><br/><span>旗舰版</span></a></p>
+				</div>
+				<div class="djx_one">
+					<img src="img/new_1/矩形6.png" class="djx_one_picture"/>
+					<div class="introduce_1">
+						<h5>DJ X ONE</h5>
+						<p>头戴式魔音耳机贴合你的生活节奏，<br/>
+							DJX耳机是你的音乐伴侣
+						</p>
+						<span id="btn1">
+							<img src="img/new_1/move.png" class="move_x"/>
+							<span class="btn_font"><a href="buy_DJ X ONE.html" target="_blank">探索</a></span>
+						</span>
+						<span id="btn2">
+							<img src="img/new_1/move.png" class="move_y"/>
+							<span class="btn_font"><a href="buy_DJ X ONE.html" target="_blank">购买</a></span>
+						</span>
+					</div>
+				</div>
+				<div class="djx_two">
+					<img src="img/new_1/矩形18.png" class="djx_two_picture"/>
+					<div class="introduce_2">
+						<h5>至红 X</h5>
+						<p>献给裆下和未来的创意先锋，<br/>
+							给所有时尚张扬的街头潮人，<br/>
+							而他们的灵感正是源于自己生活的城市街头。<br/>
+							妹调街道都有自己的故事，<br/>
+							你也一样。
+						</p>
+						<span id="btn3">
+							<img src="img/new_1/move.png" class="move_x"/>
+							<span class="btn_font"><a href="buy_DJ X ONE.html" target="_blank">探索</a></span>
+						</span>
+						<span id="btn4">
+							<img src="img/new_1/move.png" class="move_y"/>
+							<span class="btn_font"><a href="buy_DJ X ONE.html" target="_blank">购买</a></span>
+						</span>
+					</div>
+				</div>
+			</div>
+		<div class="footer">
+			<div class="footer-content">
+				<h1>产品支持</h1>
+				<div class="icon1"><a href="#">主页</a></div>
+				<div class="icon2"><a href="#">联系我们</a></div>
+				<div class="icon3"><a href="#">更新产品</a></div>
+				<div class="icon4"><a href="#">维修服务</a></div>
+				<p><span>蜀ICP备13014270号</span><span class="aside">保留所有权利</span></p>
+				
+			</div>
+		</div>
+			
+		
+		   
+		  
+		
+	</body>
+	<script type="text/javascript" src="jquery-3.2.1.js"></script>
+	<script src="js/auto-size1.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+//		更多按钮
+		$(function(){
+			$('#more').click(function(){
+				$('#gethui').fadeIn(500);
+				$('#nav_more').fadeIn(500);
+				setTimeout(function(){$('#gethui').css('display','none')},6000)
+				setTimeout(function(){$('#nav_more').css('display','none')},6000)
+			})
+		})
+//		搜索按钮
+		$(function(){
+			$('#research_btn').click(function(){
+				$('#research_btn').fadeOut(100,function(){
+					$('#research').fadeIn(1000)
+					$('#research_btn').fadeIn(500)
+				})
+				
+			});
+		})
+		
+//		轮播图
+		$(function(){ //页面加载完毕才执行
+		 
+		    //图片统一高度：
+		    var images_height = '9rem';
+		    //图片路径/链接(数组形式):
+		    var images_url = [
+		        'img/new_1/banner1.png',
+		        'img/new_1/banner2.png',
+		        'img/new_1/banner3.png'
+		    ];
+		    var images_count = images_url.length;
+		    //console.log(images_count);
+		 
+		    //创建节点
+		    //图片列表节点
+		    for(var j=0;j<images_count+1;j++){
+		        $('.banner ul').append('<li></li>')
+		    }
+		    //轮播圆点按钮节点
+		    for(var j=0;j<images_count;j++){
+		        if(j==0){
+		            $('.banner ol').append('<li class="current"></li>')
+		        }else{
+		            $('.banner ol').append('<li></li>')
+		        }
+		    }
+		 
+		    //载入图片
+		    $('.banner ul li').css('background-image','url('+images_url[0]+')');
+		    $.each(images_url,function(key,value){
+		        $('.banner ul li').eq(key).css('background-image','url('+value+')');
+		    });
+		 
+		    $('.banner').css('height',images_height);
+		 
+		    $('.banner ul').css('width',(images_count+1)*19.2+'rem');
+		 
+		    $('.banner ol').css('width',images_count*0.2+'rem');
+		    $('.banner ol').css('margin-left',-images_count*0.2*0.5-0.1+'rem');
+		 
+		    //=========================
+		 
+		    var num = 0;
+		    //获取窗口宽度
+		    var window_width = $(window).width();
+		    $(window).resize(function(){
+		        window_width = $(window).width();
+		        $('.banner ul li').css({width:window_width});
+		        clearInterval(timer);
+		        nextPlay();
+		        timer = setInterval(nextPlay,4000);
+		    });
+		    //console.log(window_width);
+		    $('.banner ul li').width(window_width);
+		    //轮播圆点
+		    $('.banner ol li').mouseover(function(){//用hover的话会有两个事件(鼠标进入和离开)
+		        $(this).addClass('current').siblings().removeClass('current');
+		        //第一张图： 0 * window_width
+		        //第二张图： 1 * window_width
+		        //第三张图： 2 * window_width
+		        //获取当前编号
+		        var i = $(this).index();
+		        //console.log(i);
+		        $('.banner ul').stop().animate({left:-i*window_width},500);
+		        num = i;
+		    });
+		    //自动播放
+		    var timer = null;
+		    function prevPlay(){
+		        num--;
+		        if(num<0){
+		            //悄悄把图片跳到最后一张图(复制页,与第一张图相同),然后做出图片播放动画，left参数是定位而不是移动的长度
+		            $('.banner ul').css({left:-window_width*images_count}).stop().animate({left:-window_width*(images_count-1)},500);
+		            num=images_count-1;
+		        }else{
+		            //console.log(num);
+		            $('.banner ul').stop().animate({left:-num*window_width},500);
+		        }
+		        if(num==images_count-1){
+		            $('.banner ol li').eq(images_count-1).addClass('current').siblings().removeClass('current');
+		        }else{
+		            $('.banner ol li').eq(num).addClass('current').siblings().removeClass('current');
+		 
+		        }
+		    }
+		    function nextPlay(){
+		        num++;
+		        if(num>images_count){
+		            //播放到最后一张(复制页)后,悄悄地把图片跳到第一张,因为和第一张相同,所以难以发觉,
+		            $('.banner ul').css({left:0}).stop().animate({left:-window_width},500);
+		            //css({left:0})是直接悄悄改变位置，animate({left:-window_width},500)是做出移动动画
+		            //随后要把指针指向第二张图片,表示已经播放至第二张了。
+		            num=1;
+		        }else{
+		            //在最后面加入一张和第一张相同的图片，如果播放到最后一张，继续往下播，悄悄回到第一张(肉眼看不见)，从第一张播放到第二张
+		            //console.log(num);
+		            $('.banner ul').stop().animate({left:-num*window_width},500);
+		        }
+		        if(num==images_count){
+		            $('.banner ol li').eq(0).addClass('current').siblings().removeClass('current');
+		        }else{
+		            $('.banner ol li').eq(num).addClass('current').siblings().removeClass('current');
+		 
+		        }
+		    }
+		    timer = setInterval(nextPlay,4000);
+		    //鼠标经过banner，停止定时器,离开则继续播放
+		    $('.banner').mouseenter(function(){
+		        clearInterval(timer);
+		        //左右箭头显示(淡入)
+		        $('.banner i').fadeIn();
+		    }).mouseleave(function(){
+		        timer = setInterval(nextPlay,4000);
+		        //左右箭头隐藏(淡出)
+		        $('.banner i').fadeOut();
+		    });
+		    //播放下一张
+		    $('.banner .right').click(function(){
+		        nextPlay();
+		    });
+		    //返回上一张
+		    $('.banner .left').click(function(){
+		        prevPlay();
+		    });
+		});
+		
+		
+		
+		
+
+
+
+
+
+
+
+
+	</script>
+</html>

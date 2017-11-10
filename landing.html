@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登陆页面</title>
+		<link rel="stylesheet" type="text/css" href="css/land.css"/>
+	</head>
+	<body>
+		<div class="land_all">
+			<div class="land_bg"></div>
+			<div class="land">
+				<div class="land_left f_left">
+					<span class="span1">登陆</span>
+					<p class="zhanghao">
+						<span class="span2">账号</span>
+						<input type="text" class="land_account" placeholder="请输入账号" />
+						<img src="img/new_1/Icon.png" class="ld_logo1"/>
+					</p>
+					<p class="mima">
+						<span class="span2">密码</span>
+						<input type="password" class="land_password" placeholder="请输入密码"/>
+						<img src="img/new_1/Icon2.png" class="ld_logo2"/>
+					</p>
+					<p class="btn_land">
+						<a href="first.html"><input type="button" class="btn_login" value="登陆" /></a>
+						<a href="#"><input type="button" class="btn_registrat" value="注册" /></a>
+					</p>
+					<p class="forget"><span class="span3"><a href="#">忘记密码</a></span></p>
+				</div>
+				<div class="f_right land_right">
+					<div class="land_topright">
+						<a href="first.html"><img src="img/nav/logo_red.png" class="first_logo"/></a>
+						<img src="img/new_1/erweimaall.png" class="erweima_all"/>
+						<img src="img/new_1/erweima.png" class="erweima"/>
+					</div>
+					<div class="land_btright">
+						<a href="#">
+						<img src="img/new_1/qq.png" class="login_logo"/>
+						<img src="img/new_1/weixing.png" class="login_logo"/>
+						<img src="img/new_1/zhifu.png" class="login_logo"/></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="jquery-3.2.1.js"></script>
+	<script src="js/auto-size1.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		var ewm=document.getElementsByClassName('erweima')[0]
+		var filogo=document.getElementsByClassName('first_logo')[0]
+		var ewmAll=document.getElementsByClassName('erweima_all')[0]
+		ewm.onmouseover=function(){
+			ewm.style.opacity='0.7'
+		}
+		ewm.onclick=function(){
+			ewmAll.style.opacity='1'
+			filogo.style.opacity='0'
+			ewmAll.style.top='0.34rem'
+			ewm.style.opacity='0'
+		}
+		ewm.onmouseout=function(){
+			filogo.style.opacity='1'
+			ewm.style.opacity='0.3'
+			ewmAll.style.opacity='0'
+			ewmAll.style.top='-0.34rem'
+		}
+	</script>
+</html>

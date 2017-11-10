@@ -1,0 +1,127 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, li, span {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1920px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cl {
+  display: inline-block;
+  overflow: hidden;
+}
+
+#gethui {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 99;
+  background: black;
+  opacity: 0.5;
+  display: none;
+}
+
+.nav {
+  width: 100%;
+  height: 0.8rem;
+  background: #ca282c;
+  line-height: 0.8rem;
+  font-size: 0.16rem;
+  color: white;
+  margin: 0 auto;
+}
+
+.nav_center {
+  width: 14.2rem;
+  margin: 0 auto;
+}
+
+.nav ul {
+  width: 14.2rem;
+}
+
+.nav li {
+  float: left;
+  width: 2.02rem;
+  text-align: center;
+}
+
+.nav li a {
+  color: white;
+}
+
+.nav li a:active span {
+  border: 0.02rem solid #FFFFFF;
+}
+
+.nav li a:visited {
+  border: 0.02rem solid #FFFFFF;
+}
+
+.logo {
+  vertical-align: middle;
+  width: 0.54rem;
+}
+
+.logo1 {
+  vertical-align: middle;
+  width: 0.25rem;
+}
+
+.logo2 {
+  vertical-align: middle;
+  width: 0.17rem;
+}
+
+#research {
+  height: 0.25rem;
+  width: 1.7rem;
+  font-size: 0.16rem;
+  float: left;
+  margin-top: 0.25rem;
+  border-radius: 0.12rem;
+  border: none;
+  display: none;
+  outline: none;
+}
+
+#nav_more {
+  width: 3rem;
+  position: absolute;
+  z-index: 100;
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 0;
+  left: 42%;
+  display: none;
+}
+
+#nav_more span {
+  display: inline-block;
+  width: 2.23rem;
+  height: 0.46rem;
+  font-size: 0.3rem;
+  text-align: center;
+  line-height: 0.46rem;
+}
+
+#nav_more span a {
+  color: white;
+}
+
+#nav_more span:hover {
+  background: black;
+}
+
+#nav_more img {
+  width: 0.38rem;
+}

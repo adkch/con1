@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>服务支持</title>
+	    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+	    <link rel="stylesheet" type="text/css" href="css/footer.css">
+	    	<link rel="stylesheet" type="text/css" href="css/top_nav.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/sus.css">
+	    <script src="js/auto-size.js"></script>
+	    <script src="js/jquery-3.2.1.min.js"></script>
+	</head>
+	<body>
+		<!--灰色背景-->
+	<div id="gethui">
+	</div>
+	<!--导航栏-->
+	<div class="nav">
+		<div class="nav_center">
+			<ul class="cl">
+				<li><a href="head.html" target="_blank"><span>头戴式耳机</span></a></li>
+				<li><a href="ear.html" target="_blank"><span>入耳式耳机</span></a></li>
+				<li><a href="spk.html" target="_blank"><span>扬声器</span></a></li>
+				<li><a href="first.html"><img src="img/nav/logo_white.png" class="logo"/></a></li>
+				<li><a href="sus.html" target="_blank"><span>服务支持</span></a></li>
+				<li><a href="#"><img src="img/nav/user.png" class="logo1" id="more"/></a></li>
+				<li><input type="text" id="research" placeholder="请输入你要的内容" /><a href="#"><img src="img/nav/nav_research.png" class="logo2" id="research_btn"/></a></li>
+			</ul>
+		</div>
+	</div>
+	<!--导航栏点击更多选项-->
+	<div id="nav_more">
+		<span><a href="landing.html" target="_blank">登陆</a></span>
+		<span><a href="#">关于我们</a></span>
+		<span><a href="#">联系DJ X</a></span>
+		<span><a href="#">DJ X AUDIO</a></span>
+		<p><a href="#"><img src="img/nav/logo_red.png"/></a></p>
+	</div>
+		<!--轮播图部分-->
+		<div class="banner">
+		</div>
+		<!--帮助部分-->
+		<div class="help">
+			<h1>选择您需要的帮助</h1>
+			<h2>选择您的产品</h2>
+			<div class="listbox">
+				<div class="small-1">
+					<h3>头戴式耳机</h3>
+					<a href="help.html">K240 STUDIO</a>
+					<a href="help.html">K701 STUDIO</a>
+					<a href="help.html">K701 STUDIO</a>
+					<a href="help.html" class="view">VIEW MORE</a>
+					
+				</div>
+				<div class="small-2">
+					<h3>入耳式耳机</h3>
+					<a href="help.html">DJX N86</a>
+					<a href="help.html">DJX N90</a>
+					<a href="help.html">DJX R60</a>
+					<a href="help.html" class="view">VIEW MORE</a>
+				</div>
+				<div class="small-3">
+					<h3>便携扬声器</h3>
+					<a href="help.html">DJX E16</a>
+					<a href="help.html">DJX E60</a>
+					<a href="help.html">DJX E17</a>
+					<a href="help.html" class="view">VIEW MORE</a>
+				</div>
+				<div class="small-4">
+					<h3>头戴式耳机</h3>
+					<a href="help.html">Speaker stand</a>
+					<a href="help.html">The portable case</a>
+
+				</div>
+			</div>
+		</div>
+		<!--大耳机图片-->
+		<div class="earbox">
+			<div class="first">蓝牙配对</div>
+			<div>固件更新</div>
+			<div>声音服务</div>
+		</div>
+		<!--更多资源部分-->
+		<div class="more">
+			<h1>更多资源</h1>
+			<div class="morebox">
+				<div>
+					<p>查找与您所在地区相关的服务,保修和所有相关的定价信息问答。</p>
+					<button><span>查看“服务”与“保修”</span></button>
+				</div>
+				<div>
+					<h1>注册与验证</h1>
+					<p>注册您的DJ X 产品以及产品防伪验证。</p>
+					<button><span>注册您的产品</span></button>
+				</div>
+				<div>
+					<p>检查软件有没有更新以及重命名产品，使其归你所有。</p>
+					<button><span>更新您的产品</span></button>
+				</div>
+			</div>
+			
+		</div>
+		<!--底部-->
+		<div class="footer">
+			<div class="footer-content">
+				<h1>产品支持</h1>
+				<div class="icon1"><a href="#">主页</a></div>
+				<div class="icon2"><a href="#">联系我们</a></div>
+				<div class="icon3"><a href="#">更新产品</a></div>
+				<div class="icon4"><a href="#">维修服务</a></div>
+				<p><span>蜀ICP备13014270号</span><span class="aside">保留所有权利</span></p>
+				
+			</div>
+		</div>
+	</body>
+<script type="text/javascript">
+	     //	更多按钮
+		$(function(){
+			$('#more').click(function(){
+				$('#gethui').fadeIn(500);
+				$('#nav_more').fadeIn(500);
+				setTimeout(function(){$('#gethui').css('display','none')},6000)
+				setTimeout(function(){$('#nav_more').css('display','none')},6000)
+			})
+			//	搜索按钮
+			$('#research_btn').click(function(){
+				$('#research_btn').fadeOut(100,function(){
+					$('#research').fadeIn(1000)
+					$('#research_btn').fadeIn(500)
+				})
+				
+			});
+		})
+</script>
+</html>
